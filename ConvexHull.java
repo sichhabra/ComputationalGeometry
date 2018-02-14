@@ -101,10 +101,10 @@ public class ConvexHull {
 	}
 
 	public ConvexHull() {
-		int arr[][]= {{0,0},{0,2},{1,1},{2,2},{2,0}};
-		int ans[][]=convexHullN3(arr);
-		for(int i=0;i<ans.length;i++) {
-			System.out.println(ans[i][0]+":"+ans[i][1]);
+		int arr[][] = { { 0, 0 }, { 0, 2 }, { 1, 1 }, { 2, 2 }, { 2, 0 } };
+		int ans[][] = convexHullN3(arr);
+		for (int i = 0; i < ans.length; i++) {
+			System.out.println(ans[i][0] + ":" + ans[i][1]);
 		}
 	}
 
